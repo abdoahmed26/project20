@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.scr::-webkit-scrollbar{
+    display: none;
+}
+.owl-nav {
+    display: none;
+}
+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.owl-dots .owl-dot span {
+    background-color: white !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 3px !important;
+}
+.owl-dots .active span {
+    background-color: black !important;
+}
