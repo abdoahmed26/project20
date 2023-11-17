@@ -79,13 +79,16 @@ const Navbar = () => {
                             className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
                                 Shop
                             </Link>
-                            <Link className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
+                            <Link to={"/about"}
+                            className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
                                 About
                             </Link>
-                            <Link className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
+                            <Link to={"/contact"}
+                            className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
                                 Contact
                             </Link>
-                            <Link className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
+                            <Link to={"/journal"}
+                            className='text-gray-200 hover:text-white hover:font-bold pt-2 hover:underline'>
                                 Journal
                             </Link>
                         </ul>
